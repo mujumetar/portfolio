@@ -63,17 +63,50 @@
   .form {
     width: 80%;
   }
+
+  .dropdown-menu {
+    width: 100%;
+    position: relative;
+    padding: 10px 2px;
+    padding-top: 10px;
+  }
+
+  .dropdown-menu1 {
+    width: 100%;
+    top: 10px;
+    padding: 10px 2px;
+    left: 0;
+    position: relative;
+    padding-top: 0px;
+  }
+
+  .dropdown1 {
+    width: 100%;
+    position: relative;
+  }
+  .dropdown {
+    width: 100%;
+    position: relative;
+  }
 }
 
 @media (max-width: 1199px) {
   .w-lg {
     width: 33.33%;
   }
+
+  .project-lg {
+    width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
   .w-sm {
     width: 50%;
+  }
+
+  .project-l {
+    width: 90%;
   }
 }
 
