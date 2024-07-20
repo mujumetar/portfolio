@@ -5,6 +5,7 @@
   font-family: "Poppins", sans-serif;
   /* border: 1px solid red; */
   scroll-behavior: smooth;
+
 }
 
 body {
@@ -52,7 +53,7 @@ nav {
   z-index: 1;
   width: 100%;
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -90,7 +91,7 @@ nav {
 }
 
 .container {
-  padding-top: 190px;
+  padding-top: 50px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -480,7 +481,6 @@ textarea {
 
 .menu{
   display: none;
-  
 }
 
 .menu-btn {
@@ -664,7 +664,7 @@ textarea {
 .day {
   background-color: white;
   color: black;
-  transition: all 3s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 .sun {
@@ -680,7 +680,7 @@ textarea {
 .night {
   background-color: #292929;
   color: white;
-  transition: all 3s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 .theme-btn {
@@ -688,9 +688,67 @@ textarea {
   justify-content: center;
   align-items: center;
   padding: 3px;
-  border-radius: 100%;
   font-size: 25px;
   border: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+.float {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 200px;
+  left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 50px;
+}
+
+.socialicons {
+  display: flex;
+  border-radius: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  margin: 10px;
+}
+
+.soc {
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  border-radius: 100%;
+  height: 50px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: whitesmoke;
+  font-size: 25px;
+  border: 1px solid gainsboro;
+  transition: all 800ms ease-in-out;
+  -webkit-transition: all 800ms ease-in-out;
+  -moz-transition: all 800ms ease-in-out;
+  -ms-transition: all 800ms ease-in-out;
+  -o-transition: all 800ms ease-in-out;
+}
+
+ .fab {
+  text-decoration: none;
+}
+
+.icon button:hover {
+  background-color: #478CCF;
+  color: white;
+  transform: scale(1.1);
+  translate: 10px;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
