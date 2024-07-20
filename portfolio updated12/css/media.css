@@ -12,6 +12,24 @@
     border-radius: 10px;
   }
 
+  .float {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%);
+  }
+
+  .socialicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .box1 > h2 {
     font-size: 60px;
   }
@@ -28,8 +46,17 @@
     padding: 20px 20px;
     width: 100%;
   }
+  .menu-btn {
+    display: blocks;
+  }
+
   .menu {
-    display: block;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-close {
+    display: none;
   }
 
   .gmap {
@@ -112,7 +139,16 @@
 
 @media (max-width: 575px) {
   .w-s {
-    width: 100%;
+    width: 90%;
     /* text-align: center; */
+  }
+
+  .gmap {
+    width: 90%;
+  }
+
+  .form {
+    width: 90%;
+    padding: 30px 10px;
   }
 }
